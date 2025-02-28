@@ -3,7 +3,7 @@ import os
 
 def get_response(msg):
     client = OpenAI(
-        api_key=os.getenv("sk-c06211183311405cae6b78f1f498eaa4"), # 如果您没有配置环境变量，请在此处用您的API Key进行替换
+        api_key=os.getenv("skXXXXXXXXXXXXXXXXXXXXX"), # 如果您没有配置环境变量，请在此处用您的API Key进行替换
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",  # 填写DashScope服务的base_url
     )
     completion = client.chat.completions.create(

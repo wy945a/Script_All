@@ -32,9 +32,9 @@ def db_connection():
 def table_info():
     # 创建连接
     conn = mysql.connector.connect(
-        host="47.120.73.119",  # 替换为数据库主机地址
+        host="11.22.33.44",  # 替换为数据库主机地址
         user="root",  # 替换为用户名
-        password="Admin@1234",  # 替换为密码
+        password="1234",  # 替换为密码
         database="test"  # 替换为数据库名称
     )
 

@@ -5,7 +5,7 @@ import json
 
 class AIModel:
     def __init__(self):
-        self.api_key = os.getenv("ALIYUN_API_KEY") or "sk-c06211183311405cae6b78f1f498eaa4"
+        self.api_key = os.getenv("ALIYUN_API_KEY") or "sk-xxxxxxxxxxx"
         self.access_key_id = os.getenv("ALIYUN_ACCESS_KEY_ID") or "your_access_key_id_here"
 
     def _send_request(self, data):
