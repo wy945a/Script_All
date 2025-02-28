@@ -5,9 +5,9 @@ import ai
 # 创建连接
 def db_connection():
     db_connection = mysql.connector.connect(
-        host="47.120.73.119",  # 替换为数据库主机地址
+        host="******",  # 替换为数据库主机地址
         user="root",  # 替换为用户名
-        password="Admin@1234",  # 替换为密码
+        password="*****",  # 替换为密码
         database="test"  # 替换为数据库名称
     )
 
